@@ -1,0 +1,303 @@
+body {
+    background-color: rgb(233, 233, 233);
+    font-size: 18px;
+    font-family: "Dela Gothic One", sans-serif;
+    color: black;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1357px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1440px;
+    background-color: #B1C98A;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 76px;
+    height: 76px;
+    background: url(./img/Vector.png) no-repeat;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+.icon {
+    width: 47px;
+    height: 47px;
+    background: url(./img/account_circle.png);
+}
+
+.nav {
+padding-top: 58px;
+padding-bottom: 50px;
+}
+
+.menu {
+    vertical-align: top;
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.menu:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.block1 {
+    width: 100%;
+    height: 734px;
+    background: url(./img/Mask\ group.png) center no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    padding-top: 38px;
+    font-size: 48px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.icon1 {
+    margin-bottom: 17px;
+    width: 70px;
+    height: 70px;
+    background: url(./img/cib_vk.png) no-repeat;
+    cursor: pointer;
+}
+
+.icon2 {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    width: 70px;
+    height: 70px;
+    background: url(./img/simple-icons_telegram.png) no-repeat;
+    cursor: pointer;
+}
+
+.icon3 {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    width: 70px;
+    height: 70px;
+    background: url(./img/Vector\ \(1\).png) no-repeat;
+    cursor: pointer;
+}
+
+.block2 {
+    background-color: #B1C98A;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 71px;
+    padding-bottom: 81px;
+}
+
+.block3 {
+    height: 40px;
+    background-color: #5D815A;
+}
+
+.preblock {
+    height: 124px;
+    background-color: #B1C98A;
+}
+
+.section {
+    width: 100%;
+    height: 934px;
+    background: url(./img/Mask\ group\ \(1\).png) center no-repeat;
+    background-size: cover;
+}
+.section_header {
+    position: relative;
+}
+
+.cubes {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.cube {
+    width: 425px;
+    height: 348px;
+}
+
+.z1 {
+    background: url(./img/Rectangle\ 242.png);
+    background-size: cover;
+}
+
+.z2 {
+    background: url(./img/Rectangle\ 240.png);
+    background-size: cover;
+}
+
+.z3 {
+    background: url(./img/Rectangle\ 244.png);
+    background-size: cover;
+}
+
+.rectangles {
+    position: absolute;
+    bottom: -118px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+
+.rectangle {
+    padding-top: 30px;
+    width: 425px;
+    height: 90px;
+    background-color: #FF630B;
+}
+
+.rectangle:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.tours {
+    padding-top: 260px;
+    text-align: center;
+    font-size: 175px;
+    color: white;
+}
+
+.preblock1 {
+    height: 184px;
+    background-color: #B1C98A;
+}
+
+.block4 {
+    background-color: #5D815A;
+}
+
+.gids {
+    padding-top: 124px;
+    font-size: 96px;
+    color: white;
+}
+
+.rounds {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.round {
+    width: 356px;
+    height: 356px;
+}
+
+.round:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.r1 {
+    background: url(./img/Ellipse\ 1.png);
+    background-size: cover;
+}
+
+.r2 {
+    background: url(./img/Ellipse\ 4.png);
+    background-size: cover;
+}
+
+.r3 {
+    background: url(./img/Ellipse\ 3.png);
+    background-size: cover;
+}
+
+.names {
+    padding-top: 32px;
+    padding-bottom: 154px;
+    width: 100%;
+    max-width: 1200px;
+    font-size: 36px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.block5 {
+    height: 1161px;
+    background: url(./img/Rectangle\ 251.png) center no-repeat;
+    background-size: cover;
+}
+
+.booking {
+    padding-top: 170px;
+    padding-bottom: 100px;
+    font-size: 96px;
+    color: white;
+  -webkit-text-stroke: 1px #000;
+}
+
+.button {
+    font-size: 32px;
+    color: #fff;
+    width: 100%;
+    max-width: 364px;
+    padding: 33px 27px;
+    background-color: #FF630B;
+    text-align: center;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    background-color: #000;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+}
